@@ -2,17 +2,17 @@
 
 {% set relative_path = "../" %}
 
-{% block page_title %}{{ member.name }}{% endblock %}
+{% block page_title %}{{ name }}{% endblock %}
 
 {% block content %}
   <article class="container">
     <div class="row">
       <div class="col-sm-4">
-          <img src="../img/{{ slug }}.jpg" alt="" class="img-fluid mb-4">
+          <img src="../img/{{ image }}" alt="" class="img-fluid mb-4">
       </div>
       <div class="col-sm-8">
-          <h1>{{ member.name }}</h1>
-          <p>{{ description | safe }}</p>
+          <h1>{{ name }}</h1>
+          {{ description | safe }}
       </div>
     </div>
   </article>

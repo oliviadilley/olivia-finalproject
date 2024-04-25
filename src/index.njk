@@ -8,8 +8,7 @@
 <div class="container">
   <h1>Who was Queen?</h1>
   <p>This will be a bunch of intro info on Queen.</p>
-  <div class="container">
-    <h1>Members</h1>
+  <h1>Members</h1>
     <p>There were 4 members of Queen.</p>
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
       {% for member in queen.members %}
@@ -27,6 +26,20 @@
       </div>
       {% endfor %}
     </div>
-  </div>
+  <h1>Albums</h1>
+    <p>Queen had a lot of studio albums.</p>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+      {% for album in queen.discography %}
+      <div class="col">
+        <div class="card h-100 text-bg-light mb-3">
+          <div class="card-body">
+            <img src="img/{{ album.image }}" class="card-img-top">
+            <h5 class="card-title">{{ album.title }}</h5>
+            <h5 class="card-year">{{ album.year }}</h5>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
 </div>
 {% endblock %}
