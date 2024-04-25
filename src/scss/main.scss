@@ -31,3 +31,35 @@ h3 {
   font-weight: 400;
   font-style: normal;
 }
+
+h1 {
+  font-family: "Bellefair";
+  font-weight: bold;
+}
+
+p {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.member {
+  padding-top: 2px;
+}
+
+.albums {
+  padding-top: 35px;
+}
+
+.card-title{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 5px;
+  padding-bottom: 2px;
+}
+
+.card-instrument, .card-year {
+  font-family: "Bellefair";
+}
+
+body {
+  background-color: #d8f9ff;
+}
+
