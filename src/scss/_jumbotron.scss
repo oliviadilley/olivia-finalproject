@@ -1,5 +1,7 @@
+$primary-color: #720000;
+
 #jumbo {
-  background: url(../img/queen-band-wallpaper-thin.jpg) no-repeat center;
+  background: url(../img/queen-with-logo.jpg) no-repeat center;
   background-size: cover;
   color: white;
   padding-top: 12rem;
@@ -10,24 +12,18 @@
   min-height: 500px;
 }
 
-#jumbo h1 {
-  font-family: "Bellefair";
-  font-size: 300px;
-  color: #720000;
-}
-
 a:link {
-  color: #720000;
+  color: $primary-color;
 }
 
 a:visited {
-  color: #720000;
+  color: $primary-color;
 }
 
 a:hover {
-  color: #720000;
+  color: $primary-color;
 }
 
 a:active {
-  color: #720000;
+  color: $primary-color;
 }

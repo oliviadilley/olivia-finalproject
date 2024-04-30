@@ -1,3 +1,5 @@
+$primary-color: #720000;
+
 // Custom variable overrides
 // See node_modules/bootstrap/scss/_variables.scss
 
@@ -35,7 +37,7 @@ h3 {
 h1 {
   font-family: "Bellefair";
   font-weight: bold;
-  color: #720000;
+  color: $primary-color;
 }
 
 p {
@@ -54,7 +56,7 @@ p {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding-top: 5px;
   padding-bottom: 2px;
-  color: #720000;
+  color: $primary-color;
 }
 
 .card-instrument, .card-year {
@@ -63,4 +65,8 @@ p {
 
 body {
   background-color: white;
+}
+
+footer {
+  padding-top: 10px;
 }
